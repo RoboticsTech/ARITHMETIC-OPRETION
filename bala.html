@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>Arithmetic opration</title>
+</head>
+<script type="text/javascript">
+function add()
+{
+var=x,y,z;
+x=parseFloat(calc.value1.value);
+y=parseFload(calc.value2.value);
+z=x+y;
+alert("the add value is"+z);
+cals.value3.value=z
+}
+function mul()
+{
+var=x,y,z;
+x=parseFloat(calc.value1.value);
+y=parseFloat(calc.value2.value);
+z=x*y;
+alert("the mul value is"+z);
+cals.value3.value=z
+}
+function div()
+{
+var=x,y,z;
+x=parseFloat(calc.value1.value);
+y=parseFloat(calc.value2.value);
+z=x/y;
+alert("the div value is"+z);
+cals.value3.value=z
+}
+</script>
+<body>
+<form name=calc">
+<h1>online calculation</h1>
+enter first numeric value:<input type="number"id="value1"></br>
+enter second numeric value:<input type="number"id="value2"></br>
+</br>
+result is arithmetic opration is:<output type="number"id="value3"></output></br>
+<input type="button" value="add" onClick=add()></br>
+<input type="button" value="sub" onClick=sub()></br>
+<input type="button" value="mul" onClick=mul()></br>
+<input type="button" value="div" onClick=div()></br>
+</form>
+</body>
+</html>
+
+
+
+
+
